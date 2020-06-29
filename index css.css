@@ -1,0 +1,167 @@
+body {
+  background-color:tomato;
+
+}
+
+h1 {
+ 	color: MediumSeaGreen;
+  margin-bottom: 15px;
+  	margin: 15px;
+  	font-size: 40px;
+  	font-style: italic;
+  	text-align: center;
+
+}
+#p1{
+	background: skyblue;
+	margin: 15px;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	  box-sizing: border-box;
+	  border: 3px solid black;
+
+}
+#p2{
+	background: lightgrey;
+	margin: 15px;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	border: 3px solid blue;
+	box-sizing: border-box;
+}
+#p3{
+	background:violet;
+	margin: 15px;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	 box-sizing: border-box;
+	  border: 3px solid white;
+
+
+}
+#div1{
+	font-size: 30px;
+	font-family:sans-serif;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	text-align: right;
+	
+}
+#div2{
+	font-size: 30px;
+	font-family:sans-serif;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	text-align: right;
+} 
+
+
+#div3{
+	font-size: 30px;
+	font-family:sans-serif;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	text-align: right;
+
+}
+
+
+@media (min-width: 992px) {
+	#body{
+		position: absolute;
+	}
+
+  #p1 {
+    width: 31.3%;
+    height: 300px;
+     overflow: auto;
+     float: left;
+     
+    
+
+ }
+  #p2 {
+    width: 31.33%;
+    height: 300px;
+    overflow: auto;
+    float: left;
+    position: relative;
+
+
+  }
+  #p3{
+ 	width: 31.3%;
+ 	height: 300px;
+    overflow: auto;
+   position: ;
+    
+	}
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+
+
+  #p1 {
+    width: 49%;
+    height:200px;
+     overflow: auto;
+     float: left;
+     
+     
+    
+
+ }
+  #p2 {
+    width: 49%;
+    height: 200px;
+    float: left;
+    overflow: auto;
+    
+    position 
+  
+
+  }
+  #p3{
+ 	width: 49%;
+ 	height: 200px;
+    overflow: auto;
+
+    
+    
+	}
+}
+@media (min-height: 767px){
+	#p1,#p2{
+		float: left;
+	}
+ 
+
+  #p1 {
+    width: 98%;
+    height:200px;
+     overflow: auto;
+     float: left;
+     
+     
+    
+
+ }
+  #p2 {
+    width: 98%;
+    height: 200px;
+    overflow: auto; 
+  
+
+  }
+  #p3{
+ 	width: 98%;
+ 	height: 200px;
+    overflow: auto;
+
+    
+    
+	}
+}
+
+
